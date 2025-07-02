@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/xarm_description/config/link_inertial/gen_link_inertial_params.py

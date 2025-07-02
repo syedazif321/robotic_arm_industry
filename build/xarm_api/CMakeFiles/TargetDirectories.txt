@@ -1,0 +1,15 @@
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/uninstall.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/xarm_api_uninstall.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/xarm_ros_driver.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/xarm_driver_node.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/xarm_ros_client.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/test_xarm_ros_client.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/test_xarm_velo_move.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/test_robot_states.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/test.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/edit_cache.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/rebuild_cache.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/list_install_components.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/install.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/install/local.dir
+/home/azif/xarm_ros2_simulation/build/xarm_api/CMakeFiles/install/strip.dir

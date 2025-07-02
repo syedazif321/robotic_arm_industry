@@ -1,0 +1,151 @@
+[0.018s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm_planner': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/home/azif/xarm_ros2_simulation/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_gazebo/lib:/home/azif/xarm_ros2_simulation/install/xarm_controller/lib:/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/build/uf_ros_lib:/home/azif/xarm_ros2_simulation/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azif/xarm_ros2_simulation/xarm_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/xarm_planner
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.516s] -- Found moveit: 2.5.9 (/opt/ros/humble/share/moveit/cmake)
+[0.519s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.687s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.735s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.741s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.750s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.777s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.942s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.002s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.046s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.050s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.071s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.081s] -- Found Threads: TRUE  
+[1.121s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.124s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.147s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.262s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.298s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.433s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.461s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.559s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.586s] -- Found xarm_msgs: 0.0.0 (/home/azif/xarm_ros2_simulation/install/xarm_msgs/share/xarm_msgs/cmake)
+[1.619s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.704s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.708s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.709s] -- Configured cppcheck include dirs: /home/azif/xarm_ros2_simulation/xarm_planner/include
+[1.709s] -- Configured cppcheck exclude dirs and/or files: 
+[1.712s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.712s] -- Configured cpplint exclude dirs and/or files: 
+[1.712s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.713s] -- Added test 'lint_cmake' to check CMake code style
+[1.714s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.716s] -- Added test 'uncrustify' to check C / C++ code style
+[1.716s] -- Configured uncrustify additional arguments: 
+[1.717s] -- Added test 'xmllint' to check XML markup files
+[1.718s] -- Configuring done
+[1.817s] -- Generating done
+[1.847s] -- Build files have been written to: /home/azif/xarm_ros2_simulation/build/xarm_planner
+[1.865s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/home/azif/xarm_ros2_simulation/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_gazebo/lib:/home/azif/xarm_ros2_simulation/install/xarm_controller/lib:/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/build/uf_ros_lib:/home/azif/xarm_ros2_simulation/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azif/xarm_ros2_simulation/xarm_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/xarm_planner
+[1.867s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm_planner': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/home/azif/xarm_ros2_simulation/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_gazebo/lib:/home/azif/xarm_ros2_simulation/install/xarm_controller/lib:/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/build/uf_ros_lib:/home/azif/xarm_ros2_simulation/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/xarm_planner -- -j16 -l16
+[1.923s] [ 22%] [32mBuilding CXX object CMakeFiles/test_xarm_gripper_planner_client_joint.dir/test/test_xarm_gripper_planner_client_joint.cpp.o[0m
+[1.923s] [ 22%] [32mBuilding CXX object CMakeFiles/xarm_planner.dir/src/xarm_planner.cpp.o[0m
+[1.923s] [ 22%] [32mBuilding CXX object CMakeFiles/test_lite_gripper_realmove.dir/test/test_lite_gripper_realmove.cpp.o[0m
+[1.923s] [ 22%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_client_joint.dir/test/test_xarm_planner_client_joint.cpp.o[0m
+[1.923s] [ 22%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_client_pose.dir/test/test_xarm_planner_client_pose.cpp.o[0m
+[5.395s] [ 27%] [32m[1mLinking CXX executable test_lite_gripper_realmove[0m
+[5.608s] [ 27%] Built target test_lite_gripper_realmove
+[5.833s] [ 31%] [32m[1mLinking CXX executable test_xarm_planner_client_pose[0m
+[5.920s] [ 36%] [32m[1mLinking CXX executable test_xarm_gripper_planner_client_joint[0m
+[5.972s] [ 40%] [32m[1mLinking CXX executable test_xarm_planner_client_joint[0m
+[6.101s] [ 40%] Built target test_xarm_planner_client_pose
+[6.187s] [ 40%] Built target test_xarm_gripper_planner_client_joint
+[6.232s] [ 40%] Built target test_xarm_planner_client_joint
+[9.116s] [ 45%] [32m[1mLinking CXX shared library libxarm_planner.so[0m
+[9.288s] [ 45%] Built target xarm_planner
+[9.310s] [ 68%] [32mBuilding CXX object CMakeFiles/xarm_gripper_planner_node.dir/src/xarm_gripper_planner_node.cpp.o[0m
+[9.310s] [ 68%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_joint.dir/test/test_xarm_planner_api_joint.cpp.o[0m
+[9.310s] [ 68%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[9.310s] [ 68%] [32mBuilding CXX object CMakeFiles/xarm_planner_node.dir/src/xarm_planner_node.cpp.o[0m
+[9.310s] [ 68%] [32mBuilding CXX object CMakeFiles/test_dual_xarm_planner_api_joint.dir/test/test_dual_xarm_planner_api_joint.cpp.o[0m
+[9.311s] [ 72%] [32mBuilding CXX object CMakeFiles/test_xarm_gripper_planner_api_joint.dir/test/test_xarm_gripper_planner_api_joint.cpp.o[0m
+[16.620s] [ 77%] [32m[1mLinking CXX executable test_xarm_gripper_planner_api_joint[0m
+[16.689s] [ 81%] [32m[1mLinking CXX executable test_xarm_planner_api_pose[0m
+[16.857s] [ 86%] [32m[1mLinking CXX executable test_xarm_planner_api_joint[0m
+[16.862s] [ 90%] [32m[1mLinking CXX executable test_dual_xarm_planner_api_joint[0m
+[16.974s] [ 90%] Built target test_xarm_gripper_planner_api_joint
+[17.041s] [ 90%] Built target test_xarm_planner_api_pose
+[17.182s] [ 90%] Built target test_xarm_planner_api_joint
+[17.190s] [ 90%] Built target test_dual_xarm_planner_api_joint
+[17.774s] [ 95%] [32m[1mLinking CXX executable xarm_gripper_planner_node[0m
+[18.080s] [ 95%] Built target xarm_gripper_planner_node
+[18.647s] [100%] [32m[1mLinking CXX executable xarm_planner_node[0m
+[19.007s] [100%] Built target xarm_planner_node
+[19.021s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/home/azif/xarm_ros2_simulation/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_gazebo/lib:/home/azif/xarm_ros2_simulation/install/xarm_controller/lib:/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/build/uf_ros_lib:/home/azif/xarm_ros2_simulation/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/xarm_planner -- -j16 -l16
+[19.022s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm_planner': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/home/azif/xarm_ros2_simulation/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_gazebo/lib:/home/azif/xarm_ros2_simulation/install/xarm_controller/lib:/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/build/uf_ros_lib:/home/azif/xarm_ros2_simulation/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/xarm_planner
+[19.030s] -- Install configuration: ""
+[19.030s] -- Execute custom install script
+[19.031s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/include/xarm_planner/xarm_planner.h
+[19.041s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/libxarm_planner.so
+[19.051s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/xarm_planner_node
+[19.061s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/xarm_gripper_planner_node
+[19.070s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_joint
+[19.079s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/test_dual_xarm_planner_api_joint
+[19.088s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_pose
+[19.098s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_api_joint
+[19.107s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_joint
+[19.117s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_pose
+[19.126s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_client_joint
+[19.136s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/lib/xarm_planner/test_lite_gripper_realmove
+[19.146s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/_dual_robot_planner.launch.py
+[19.155s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/_robot_planner.launch.py
+[19.165s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/lite6_planner_fake.launch.py
+[19.175s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/lite6_planner_gazebo.launch.py
+[19.185s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/lite6_planner_realmove.launch.py
+[19.194s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/test_dual_xarm_planner_api_joint.launch.py
+[19.203s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/test_lite_gripper_realmove.launch.py
+[19.213s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/test_move_group.launch.py
+[19.223s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_api_joint.launch.py
+[19.234s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_client_joint.launch.py
+[19.244s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_joint.launch.py
+[19.255s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_pose.launch.py
+[19.265s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_joint.launch.py
+[19.276s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_pose.launch.py
+[19.286s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/uf850_planner_fake.launch.py
+[19.296s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/uf850_planner_gazebo.launch.py
+[19.305s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/uf850_planner_realmove.launch.py
+[19.315s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_fake.launch.py
+[19.324s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_gazebo.launch.py
+[19.334s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_realmove.launch.py
+[19.343s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_fake.launch.py
+[19.354s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_gazebo.launch.py
+[19.364s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_realmove.launch.py
+[19.374s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_fake.launch.py
+[19.384s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_gazebo.launch.py
+[19.395s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_realmove.launch.py
+[19.404s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_fake.launch.py
+[19.415s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_gazebo.launch.py
+[19.424s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_realmove.launch.py
+[19.434s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/ament_index/resource_index/package_run_dependencies/xarm_planner
+[19.444s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/ament_index/resource_index/parent_prefix_path/xarm_planner
+[19.453s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.sh
+[19.463s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.dsv
+[19.473s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/environment/path.sh
+[19.483s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/environment/path.dsv
+[19.493s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/local_setup.bash
+[19.503s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/local_setup.sh
+[19.513s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/local_setup.zsh
+[19.522s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/local_setup.dsv
+[19.532s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/package.dsv
+[19.541s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/ament_index/resource_index/packages/xarm_planner
+[19.551s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig.cmake
+[19.560s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig-version.cmake
+[19.569s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_planner/share/xarm_planner/package.xml
+[19.580s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/home/azif/xarm_ros2_simulation/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_moveit_config:/home/azif/xarm_ros2_simulation/install/xarm_gazebo:/home/azif/xarm_ros2_simulation/install/xarm_controller:/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_gazebo/lib:/home/azif/xarm_ros2_simulation/install/xarm_controller/lib:/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/build/uf_ros_lib:/home/azif/xarm_ros2_simulation/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/xarm_planner

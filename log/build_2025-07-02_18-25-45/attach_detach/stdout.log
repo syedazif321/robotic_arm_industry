@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target attach_detach[0m
+[100%] Built target attach_detach
+-- Install configuration: ""
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/lib/libattach_detach.so
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/ament_index/resource_index/package_run_dependencies/attach_detach
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/ament_index/resource_index/parent_prefix_path/attach_detach
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/environment/ament_prefix_path.sh
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/environment/path.sh
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/environment/path.dsv
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/local_setup.bash
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/local_setup.sh
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/local_setup.zsh
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/local_setup.dsv
+-- Installing: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/package.dsv
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/ament_index/resource_index/packages/attach_detach
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/cmake/attach_detachConfig.cmake
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/cmake/attach_detachConfig-version.cmake
+-- Up-to-date: /home/azif/xarm_ros2_simulation/install/attach_detach/share/attach_detach/package.xml

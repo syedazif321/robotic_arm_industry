@@ -1,0 +1,29 @@
+[0.530s] Invoking command in '/home/azif/xarm_ros2_simulation/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/realsense_gazebo_plugin -- -j16 -l16
+[0.686s] [100%] Built target realsense_gazebo_plugin
+[1.144s] Invoked command in '/home/azif/xarm_ros2_simulation/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/realsense_gazebo_plugin -- -j16 -l16
+[1.180s] Invoking command in '/home/azif/xarm_ros2_simulation/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/realsense_gazebo_plugin
+[1.292s] -- Install configuration: ""
+[1.294s] -- Execute custom install script
+[1.295s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+[1.296s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h
+[1.297s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h
+[1.298s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+[1.299s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+[1.300s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+[1.300s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+[1.300s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+[1.301s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+[1.301s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+[1.301s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+[1.301s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+[1.302s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+[1.302s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+[1.302s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+[1.302s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+[1.320s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+[1.322s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.325s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[1.327s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[1.331s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[1.331s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[1.492s] Invoked command in '/home/azif/xarm_ros2_simulation/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/realsense_gazebo_plugin

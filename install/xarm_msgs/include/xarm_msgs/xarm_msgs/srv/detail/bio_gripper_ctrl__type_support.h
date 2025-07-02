@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/build/xarm_msgs/rosidl_generator_c/xarm_msgs/srv/detail/bio_gripper_ctrl__type_support.h

@@ -1,0 +1,6 @@
+Invoking command in '/home/azif/xarm_ros2_simulation/build/msg_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azif/xarm_ros2_simulation/msg_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/msg_gazebo
+Invoked command in '/home/azif/xarm_ros2_simulation/build/msg_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azif/xarm_ros2_simulation/msg_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/msg_gazebo
+Invoking command in '/home/azif/xarm_ros2_simulation/build/msg_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/msg_gazebo -- -j16 -l16
+Invoked command in '/home/azif/xarm_ros2_simulation/build/msg_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/msg_gazebo -- -j16 -l16
+Invoking command in '/home/azif/xarm_ros2_simulation/build/msg_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/msg_gazebo
+Invoked command in '/home/azif/xarm_ros2_simulation/build/msg_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/msg_gazebo

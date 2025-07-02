@@ -1,0 +1,64 @@
+[0.011s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm7_pipeline': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/home/azif/xarm_ros2_simulation/install/msg_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/install/msg_gazebo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azif/xarm_ros2_simulation/xarm7_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/xarm7_pipeline
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.276s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.474s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.509s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.554s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.559s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.568s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.637s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.640s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.659s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.669s] -- Looking for pthread.h
+[0.742s] -- Looking for pthread.h - found
+[0.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.813s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.813s] -- Found Threads: TRUE  
+[0.863s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.873s] -- Found xarm_msgs: 0.0.0 (/home/azif/xarm_ros2_simulation/install/xarm_msgs/share/xarm_msgs/cmake)
+[0.888s] -- Found msg_gazebo: 0.0.0 (/home/azif/xarm_ros2_simulation/install/msg_gazebo/share/msg_gazebo/cmake)
+[0.897s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.074s] -- Configuring done
+[1.088s] -- Generating done
+[1.091s] -- Build files have been written to: /home/azif/xarm_ros2_simulation/build/xarm7_pipeline
+[1.101s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm7_pipeline' returned '0': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/home/azif/xarm_ros2_simulation/install/msg_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/install/msg_gazebo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azif/xarm_ros2_simulation/xarm7_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/xarm7_pipeline
+[1.103s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm7_pipeline': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/home/azif/xarm_ros2_simulation/install/msg_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/install/msg_gazebo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/xarm7_pipeline -- -j16 -l16
+[1.158s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm7_pipeline_node.dir/src/xarm7_pipeline_node.cpp.o[0m
+[7.889s] [100%] [32m[1mLinking CXX executable xarm7_pipeline_node[0m
+[8.295s] [100%] Built target xarm7_pipeline_node
+[8.308s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm7_pipeline' returned '0': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/home/azif/xarm_ros2_simulation/install/msg_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/install/msg_gazebo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/xarm7_pipeline -- -j16 -l16
+[8.310s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm7_pipeline': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/home/azif/xarm_ros2_simulation/install/msg_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/install/msg_gazebo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/xarm7_pipeline
+[8.318s] -- Install configuration: ""
+[8.318s] -- Execute custom install script
+[8.318s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/lib/xarm7_pipeline/xarm7_pipeline_node
+[8.329s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/lib/xarm7_pipeline/xarm7_pipeline_node
+[8.329s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/ament_index/resource_index/package_run_dependencies/xarm7_pipeline
+[8.340s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/ament_index/resource_index/parent_prefix_path/xarm7_pipeline
+[8.351s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/environment/ament_prefix_path.sh
+[8.362s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/environment/ament_prefix_path.dsv
+[8.373s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/environment/path.sh
+[8.384s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/environment/path.dsv
+[8.395s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/local_setup.bash
+[8.406s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/local_setup.sh
+[8.417s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/local_setup.zsh
+[8.427s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/local_setup.dsv
+[8.438s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/package.dsv
+[8.449s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/ament_index/resource_index/packages/xarm7_pipeline
+[8.459s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/cmake/xarm7_pipelineConfig.cmake
+[8.470s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/cmake/xarm7_pipelineConfig-version.cmake
+[8.480s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pipeline/share/xarm7_pipeline/package.xml
+[8.493s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm7_pipeline' returned '0': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/msg_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/home/azif/xarm_ros2_simulation/install/msg_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/azif/xarm_ros2_simulation/install/msg_gazebo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/xarm7_pipeline

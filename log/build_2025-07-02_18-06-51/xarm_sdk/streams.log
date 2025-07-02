@@ -1,0 +1,50 @@
+[0.059s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/xarm_sdk -- -j16 -l16
+[0.572s] [100%] Built target xarm_cxx_sdk
+[1.084s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/xarm_sdk -- -j16 -l16
+[1.085s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/xarm_sdk
+[1.110s] -- Install configuration: ""
+[1.111s] -- Execute custom install script
+[1.112s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/environment/library_path.sh
+[1.129s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/environment/library_path.dsv
+[1.149s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/serial/impl/unix.h
+[1.151s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/serial/impl/win.h
+[1.154s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/serial/serial.h
+[1.157s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/serial/v8stdint.h
+[1.157s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/common/crc16.h
+[1.158s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/common/data_type.h
+[1.158s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/common/queue_memcpy.h
+[1.159s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/connect.h
+[1.159s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/debug/debug_print.h
+[1.167s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/instruction/servo3_config.h
+[1.169s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd.h
+[1.169s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_config.h
+[1.169s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_ser.h
+[1.169s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_tcp.h
+[1.170s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/os/bak/thread.h
+[1.170s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/os/network.h
+[1.182s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/port/ser.h
+[1.182s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/port/socket.h
+[1.182s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/report_data.h
+[1.184s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/core/xarm_config.h
+[1.184s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/wrapper/common/timer.h
+[1.186s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/wrapper/common/utils.h
+[1.186s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/cxx/include/xarm/wrapper/xarm_api.h
+[1.186s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/lib/libxarm_cxx_sdk.so
+[1.187s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/ament_index/resource_index/package_run_dependencies/xarm_sdk
+[1.191s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/ament_index/resource_index/parent_prefix_path/xarm_sdk
+[1.194s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.sh
+[1.196s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.dsv
+[1.197s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/environment/path.sh
+[1.197s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/environment/path.dsv
+[1.197s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/local_setup.bash
+[1.197s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/local_setup.sh
+[1.210s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/local_setup.zsh
+[1.210s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/local_setup.dsv
+[1.210s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/package.dsv
+[1.268s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/ament_index/resource_index/packages/xarm_sdk
+[1.282s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.282s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.282s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig.cmake
+[1.290s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake
+[1.290s] -- Up-to-date symlink: /home/azif/xarm_ros2_simulation/install/xarm_sdk/share/xarm_sdk/package.xml
+[1.339s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/xarm_sdk

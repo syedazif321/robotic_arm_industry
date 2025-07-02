@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+
+    <plugin name="attach_detach_plugin" filename="libattach_detach.so"/>
+
+    <!-- Default environment -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://table</uri>
+      <name>table</name>
+      <pose>0.0 -0.84 0 0 0 0</pose>
+    </include>
+
+    <!-- Local box_2 model -->
+    <include>
+      <uri>model://box_2</uri>
+      <name>box_2</name>
+      <pose>-0.110164 -0.021168 1.095003 0.064467 -1.570734 -0.071686</pose>
+    </include>
+
+    <!-- Local turtlebot3_house model -->
+    <include>
+      <uri>model://turtlebot3_house</uri>
+      <name>turtlebot3_house</name>
+      <pose>2.671483 -2.165167 0 0 0 0</pose>
+    </include>
+
+  <light name="user_point_light_0" type="point">
+    <pose>0.931353 -0.840068 3.004021 -0.004178 0 0</pose>  <!-- Position in the world -->
+    <diffuse>1 1 1 1</diffuse>  <!-- white light -->
+    <specular>0.5 0.5 0.5 1</specular>
+    <attenuation>
+      <range>20</range>
+      <constant>0.5</constant>
+      <linear>0.01</linear>
+      <quadratic>0.001</quadratic>
+    </attenuation>
+    <cast_shadows>true</cast_shadows>
+  </light>
+
+  <!-- Directional Light: 0 -->
+  <light name="user_directional_light_0" type="directional">
+    <pose>0.924092 0.119988 2.431426 0 0 0</pose>  <!-- position above the scene -->
+    <diffuse>1 1 1 1</diffuse>
+    <specular>0.1 0.1 0.1 1</specular>
+    <direction>-0.5 -0.5 -1</direction>  <!-- pointing down/angled -->
+    <cast_shadows>true</cast_shadows>
+  </light>
+    
+
+    <!-- Physics settings -->
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <gravity>0 0 -9.81</gravity>
+    </physics>
+
+  </world>
+</sdf>

@@ -1,0 +1,4 @@
+source;share/xarm7_aruco_pick/local_setup.bash
+source;share/xarm7_aruco_pick/local_setup.dsv
+source;share/xarm7_aruco_pick/local_setup.sh
+source;share/xarm7_aruco_pick/local_setup.zsh

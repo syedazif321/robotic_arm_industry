@@ -1,0 +1,8 @@
+setup.py
+msg_gazebo/__init__.py
+msg_gazebo.egg-info/PKG-INFO
+msg_gazebo.egg-info/SOURCES.txt
+msg_gazebo.egg-info/dependency_links.txt
+msg_gazebo.egg-info/top_level.txt
+msg_gazebo/srv/__init__.py
+msg_gazebo/srv/_attach_detach.py

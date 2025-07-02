@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/xarm_planner/launch/test_lite_gripper_realmove.launch.py

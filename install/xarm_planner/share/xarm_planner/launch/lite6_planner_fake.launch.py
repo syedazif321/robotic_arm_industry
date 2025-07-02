@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/xarm_planner/launch/lite6_planner_fake.launch.py

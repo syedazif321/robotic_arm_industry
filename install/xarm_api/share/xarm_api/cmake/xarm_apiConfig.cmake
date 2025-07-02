@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/build/xarm_api/ament_cmake_core/xarm_apiConfig.cmake

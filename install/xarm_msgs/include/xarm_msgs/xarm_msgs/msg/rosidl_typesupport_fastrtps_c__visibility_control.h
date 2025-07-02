@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/build/xarm_msgs/rosidl_typesupport_fastrtps_c/xarm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

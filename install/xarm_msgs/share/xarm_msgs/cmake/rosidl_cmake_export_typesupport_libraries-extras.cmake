@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/build/xarm_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

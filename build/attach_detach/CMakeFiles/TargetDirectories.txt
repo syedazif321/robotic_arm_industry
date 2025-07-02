@@ -1,0 +1,10 @@
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/uninstall.dir
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/attach_detach_uninstall.dir
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/attach_detach.dir
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/test.dir
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/edit_cache.dir
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/rebuild_cache.dir
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/list_install_components.dir
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/install.dir
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/install/local.dir
+/home/azif/xarm_ros2_simulation/build/attach_detach/CMakeFiles/install/strip.dir

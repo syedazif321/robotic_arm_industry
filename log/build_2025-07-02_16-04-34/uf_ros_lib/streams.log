@@ -1,0 +1,16 @@
+[1.041s] Invoking command in '/home/azif/xarm_ros2_simulation/build/uf_ros_lib': PYTHONPATH=/home/azif/xarm_ros2_simulation/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azif/xarm_ros2_simulation/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/azif/xarm_ros2_simulation/build/uf_ros_lib/build --no-deps symlink_data
+[1.304s] running develop
+[1.487s] running egg_info
+[1.487s] writing uf_ros_lib.egg-info/PKG-INFO
+[1.488s] writing dependency_links to uf_ros_lib.egg-info/dependency_links.txt
+[1.488s] writing entry points to uf_ros_lib.egg-info/entry_points.txt
+[1.488s] writing requirements to uf_ros_lib.egg-info/requires.txt
+[1.488s] writing top-level names to uf_ros_lib.egg-info/top_level.txt
+[1.490s] reading manifest file 'uf_ros_lib.egg-info/SOURCES.txt'
+[1.490s] writing manifest file 'uf_ros_lib.egg-info/SOURCES.txt'
+[1.492s] running build_ext
+[1.492s] Creating /home/azif/xarm_ros2_simulation/install/uf_ros_lib/lib/python3.10/site-packages/uf-ros-lib.egg-link (link to .)
+[1.493s] 
+[1.493s] Installed /home/azif/xarm_ros2_simulation/build/uf_ros_lib
+[1.493s] running symlink_data
+[1.547s] Invoked command in '/home/azif/xarm_ros2_simulation/build/uf_ros_lib' returned '0': PYTHONPATH=/home/azif/xarm_ros2_simulation/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azif/xarm_ros2_simulation/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/azif/xarm_ros2_simulation/build/uf_ros_lib/build --no-deps symlink_data

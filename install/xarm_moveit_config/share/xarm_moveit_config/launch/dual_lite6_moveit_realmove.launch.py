@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/xarm_moveit_config/launch/dual_lite6_moveit_realmove.launch.py

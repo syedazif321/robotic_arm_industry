@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/xarm_moveit_servo/launch/uf850_moveit_servo_realmove.launch.py

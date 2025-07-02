@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/xarm_moveit_config/launch/_robot_moveit_common.launch.py

@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/build/d435i_xarm_setup/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/build/xarm_msgs/rosidl_generator_py/xarm_msgs/srv/_get_set_modbus_data_s.c

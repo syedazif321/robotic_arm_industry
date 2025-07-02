@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/build/xarm7_pipeline/ament_cmake_core/xarm7_pipelineConfig-version.cmake

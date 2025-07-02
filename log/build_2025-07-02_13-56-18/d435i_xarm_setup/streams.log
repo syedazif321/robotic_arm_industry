@@ -1,0 +1,102 @@
+[0.014s] Invoking command in '/home/azif/xarm_ros2_simulation/build/d435i_xarm_setup': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azif/xarm_ros2_simulation/xarm_vision/d435i_xarm_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/d435i_xarm_setup
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.407s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.458s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.494s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.539s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.545s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.620s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.623s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.641s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.651s] -- Looking for pthread.h
+[0.722s] -- Looking for pthread.h - found
+[0.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.791s] -- Found Threads: TRUE  
+[0.835s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.949s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.970s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.971s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.972s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.975s] -- Found object_recognition_msgs: 2.0.0 (/opt/ros/humble/share/object_recognition_msgs/cmake)
+[1.020s] -- Found xarm_msgs: 0.0.0 (/home/azif/xarm_ros2_simulation/install/xarm_msgs/share/xarm_msgs/cmake)
+[1.030s] -- Found xarm_api: 0.0.0 (/home/azif/xarm_ros2_simulation/install/xarm_api/share/xarm_api/cmake)
+[1.038s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.111s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.113s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.113s] -- Configured cppcheck include dirs: 
+[1.113s] -- Configured cppcheck exclude dirs and/or files: 
+[1.115s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.115s] -- Configured cpplint exclude dirs and/or files: 
+[1.115s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.116s] -- Added test 'lint_cmake' to check CMake code style
+[1.116s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.117s] -- Added test 'uncrustify' to check C / C++ code style
+[1.117s] -- Configured uncrustify additional arguments: 
+[1.118s] -- Added test 'xmllint' to check XML markup files
+[1.119s] -- Configuring done
+[1.139s] -- Generating done
+[1.146s] -- Build files have been written to: /home/azif/xarm_ros2_simulation/build/d435i_xarm_setup
+[1.155s] Invoked command in '/home/azif/xarm_ros2_simulation/build/d435i_xarm_setup' returned '0': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azif/xarm_ros2_simulation/xarm_vision/d435i_xarm_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/d435i_xarm_setup
+[1.157s] Invoking command in '/home/azif/xarm_ros2_simulation/build/d435i_xarm_setup': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/d435i_xarm_setup -- -j16 -l16
+[1.206s] [ 16%] [32mBuilding CXX object CMakeFiles/tf_object_to_base.dir/src/tf_object_to_base.cpp.o[0m
+[1.206s] [ 33%] [32mBuilding CXX object CMakeFiles/findobj_grasp_xarm_api.dir/src/findobj_grasp_xarm_api.cpp.o[0m
+[1.208s] [ 50%] [32mBuilding CXX object CMakeFiles/findobj_grasp_moveit_planner.dir/src/findobj_grasp_moveit_planner.cpp.o[0m
+[7.132s] [ 66%] [32m[1mLinking CXX executable findobj_grasp_xarm_api[0m
+[7.404s] [ 83%] [32m[1mLinking CXX executable findobj_grasp_moveit_planner[0m
+[7.893s] [ 83%] Built target findobj_grasp_moveit_planner
+[7.993s] [ 83%] Built target findobj_grasp_xarm_api
+[8.593s] [100%] [32m[1mLinking CXX executable tf_object_to_base[0m
+[9.018s] [100%] Built target tf_object_to_base
+[9.030s] Invoked command in '/home/azif/xarm_ros2_simulation/build/d435i_xarm_setup' returned '0': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/d435i_xarm_setup -- -j16 -l16
+[9.032s] Invoking command in '/home/azif/xarm_ros2_simulation/build/d435i_xarm_setup': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/d435i_xarm_setup
+[9.041s] -- Install configuration: ""
+[9.041s] -- Execute custom install script
+[9.042s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_findobj2d_robot_api.launch.py
+[9.051s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_findobj2d_robot_moveit_planner.launch.py
+[9.062s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_robot_auto_calib.launch.py
+[9.071s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_robot_ork_linemod.launch.py
+[9.080s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/grasp_node_robot_api.launch.py
+[9.091s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/grasp_node_robot_moveit_planner.launch.py
+[9.103s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/publish_handeye_tf.launch.py
+[9.115s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/start_find_obj_2d.launch.py
+[9.126s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//objects/1.png
+[9.137s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//objects/2.png
+[9.149s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//config/extra_robot_api_params.yaml
+[9.161s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//config/lite_rs_on_hand_calibration.calib
+[9.173s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//config/uf850_rs_on_hand_calibration.calib
+[9.184s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup//config/xarm_rs_on_hand_calibration.calib
+[9.196s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/lib/d435i_xarm_setup/findobj_grasp_moveit_planner
+[9.209s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/lib/d435i_xarm_setup/findobj_grasp_xarm_api
+[9.221s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/lib/d435i_xarm_setup/tf_object_to_base
+[9.232s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/ament_index/resource_index/package_run_dependencies/d435i_xarm_setup
+[9.243s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/ament_index/resource_index/parent_prefix_path/d435i_xarm_setup
+[9.255s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/ament_prefix_path.sh
+[9.267s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/ament_prefix_path.dsv
+[9.279s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/path.sh
+[9.291s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/path.dsv
+[9.302s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.bash
+[9.314s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.sh
+[9.326s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.zsh
+[9.338s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.dsv
+[9.349s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/package.dsv
+[9.361s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/ament_index/resource_index/packages/d435i_xarm_setup
+[9.373s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/cmake/d435i_xarm_setupConfig.cmake
+[9.385s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/cmake/d435i_xarm_setupConfig-version.cmake
+[9.397s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/d435i_xarm_setup/share/d435i_xarm_setup/package.xml
+[9.412s] Invoked command in '/home/azif/xarm_ros2_simulation/build/d435i_xarm_setup' returned '0': AMENT_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api:/home/azif/xarm_ros2_simulation/install/xarm_sdk:/home/azif/xarm_ros2_simulation/install/xarm_msgs:/home/azif/xarm_ros2_simulation/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/azif/xarm_ros2_simulation/install/xarm_api/lib:/home/azif/xarm_ros2_simulation/install/xarm_sdk/lib:/home/azif/xarm_ros2_simulation/install/xarm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azif/xarm_ros2_simulation/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/d435i_xarm_setup

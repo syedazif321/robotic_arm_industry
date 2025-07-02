@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/build/mbot_demo/ament_cmake_core/mbot_demoConfig.cmake

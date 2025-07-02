@@ -1,0 +1,15 @@
+source;share/attach_detach/hook/cmake_prefix_path.ps1
+source;share/attach_detach/hook/cmake_prefix_path.dsv
+source;share/attach_detach/hook/cmake_prefix_path.sh
+source;share/attach_detach/hook/ld_library_path_lib.ps1
+source;share/attach_detach/hook/ld_library_path_lib.dsv
+source;share/attach_detach/hook/ld_library_path_lib.sh
+source;share/attach_detach/hook/ros_package_path.ps1
+source;share/attach_detach/hook/ros_package_path.dsv
+source;share/attach_detach/hook/ros_package_path.sh
+source;share/attach_detach/hook/pkg_config_path.ps1
+source;share/attach_detach/hook/pkg_config_path.dsv
+source;share/attach_detach/hook/pkg_config_path.sh
+source;share/attach_detach/hook/pkg_config_path_multiarch.ps1
+source;share/attach_detach/hook/pkg_config_path_multiarch.dsv
+source;share/attach_detach/hook/pkg_config_path_multiarch.sh

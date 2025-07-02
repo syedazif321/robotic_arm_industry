@@ -1,0 +1,73 @@
+[0.256s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm7_pose_saver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azif/xarm_ros2_simulation/xarm7_pose_saver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/xarm7_pose_saver
+[0.309s] -- The C compiler identification is GNU 11.4.0
+[0.365s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.447s] -- Detecting C compile features
+[0.447s] -- Detecting C compile features - done
+[0.450s] -- Detecting CXX compiler ABI info
+[0.535s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.542s] -- Detecting CXX compile features
+[0.542s] -- Detecting CXX compile features - done
+[0.546s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.709s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.788s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.824s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.866s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.871s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.881s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.010s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.029s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.119s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.174s] -- Looking for pthread.h
+[1.445s] -- Looking for pthread.h - found
+[1.445s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.692s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.699s] -- Found Threads: TRUE  
+[1.900s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.006s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.538s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.735s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.735s] -- Configured cppcheck include dirs: 
+[2.735s] -- Configured cppcheck exclude dirs and/or files: 
+[2.736s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.737s] -- Added test 'lint_cmake' to check CMake code style
+[2.741s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.743s] -- Added test 'uncrustify' to check C / C++ code style
+[2.746s] -- Configured uncrustify additional arguments: 
+[2.748s] -- Added test 'xmllint' to check XML markup files
+[2.751s] -- Configuring done
+[2.799s] -- Generating done
+[2.808s] -- Build files have been written to: /home/azif/xarm_ros2_simulation/build/xarm7_pose_saver
+[2.846s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm7_pose_saver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azif/xarm_ros2_simulation/xarm7_pose_saver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/xarm_ros2_simulation/install/xarm7_pose_saver
+[2.856s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm7_pose_saver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/xarm7_pose_saver -- -j16 -l16
+[2.965s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_saver.dir/src/pose_saver.cpp.o[0m
+[12.855s] [100%] [32m[1mLinking CXX executable pose_saver[0m
+[14.104s] [100%] Built target pose_saver
+[14.146s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm7_pose_saver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azif/xarm_ros2_simulation/build/xarm7_pose_saver -- -j16 -l16
+[14.151s] Invoking command in '/home/azif/xarm_ros2_simulation/build/xarm7_pose_saver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/xarm7_pose_saver
+[14.177s] -- Install configuration: ""
+[14.178s] -- Execute custom install script
+[14.180s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/lib/xarm7_pose_saver/pose_saver
+[14.216s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver//config/saved_poses.yaml
+[14.250s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver//launch/pose_saver.launch.py
+[14.293s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/ament_index/resource_index/package_run_dependencies/xarm7_pose_saver
+[14.322s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/ament_index/resource_index/parent_prefix_path/xarm7_pose_saver
+[14.355s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/environment/ament_prefix_path.sh
+[14.389s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/environment/ament_prefix_path.dsv
+[14.421s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/environment/path.sh
+[14.457s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/environment/path.dsv
+[14.490s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/local_setup.bash
+[14.520s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/local_setup.sh
+[14.557s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/local_setup.zsh
+[14.593s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/local_setup.dsv
+[14.626s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/package.dsv
+[14.662s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/ament_index/resource_index/packages/xarm7_pose_saver
+[14.698s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/cmake/xarm7_pose_saverConfig.cmake
+[14.726s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/cmake/xarm7_pose_saverConfig-version.cmake
+[14.754s] -- Symlinking: /home/azif/xarm_ros2_simulation/install/xarm7_pose_saver/share/xarm7_pose_saver/package.xml
+[14.786s] Invoked command in '/home/azif/xarm_ros2_simulation/build/xarm7_pose_saver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azif/xarm_ros2_simulation/build/xarm7_pose_saver

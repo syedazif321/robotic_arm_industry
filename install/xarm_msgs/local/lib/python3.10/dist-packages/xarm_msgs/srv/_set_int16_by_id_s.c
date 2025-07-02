@@ -1,0 +1,1 @@
+/home/azif/xarm_ros2_simulation/build/xarm_msgs/rosidl_generator_py/xarm_msgs/srv/_set_int16_by_id_s.c

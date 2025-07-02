@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/azif/xarm_ros2_simulation/build/msg_gazebo/msg_gazebo__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "msg_gazebo::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "msg_gazebo__py::@0832b2d5f08e30053740",
+	"name" : "msg_gazebo__py",
+	"paths" : 
+	{
+		"build" : "msg_gazebo__py",
+		"source" : "/home/azif/xarm_ros2_simulation/build/msg_gazebo/msg_gazebo__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/azif/xarm_ros2_simulation/build/msg_gazebo/msg_gazebo__py/CMakeFiles/msg_gazebo__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/azif/xarm_ros2_simulation/build/msg_gazebo/msg_gazebo__py/CMakeFiles/msg_gazebo__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/azif/xarm_ros2_simulation/build/msg_gazebo/rosidl_generator_py/msg_gazebo/_msg_gazebo_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
