@@ -40,8 +40,8 @@ def launch_setup(context, *args, **kwargs):
     add_d435i_links = LaunchConfiguration('add_d435i_links', default=True)
     model1300 = LaunchConfiguration('model1300', default=False)
     robot_sn = LaunchConfiguration('robot_sn', default='')
-    attach_to = LaunchConfiguration('attach_to', default='world')
-    attach_xyz = LaunchConfiguration('attach_xyz', default='"2 0 -0.5"')
+    attach_to = LaunchConfiguration('attach_to', default='default')
+    attach_xyz = LaunchConfiguration('attach_xyz', default='"0.0 0.0 0.0"')
     attach_rpy = LaunchConfiguration('attach_rpy', default='"0 0 0"')
 
     add_other_geometry = LaunchConfiguration('add_other_geometry', default=False)
@@ -139,7 +139,7 @@ def launch_setup(context, *args, **kwargs):
 
     # gazebo launch
     # gazebo_ros/launch/gazebo.launch.py
-    xarm_gazebo_world = PathJoinSubstitution([FindPackageShare('xarm_gazebo'), 'worlds', 'aws-robomaker-small-warehouse-world-ros1/worlds/no_roof_small_warehouse.world'])
+    xarm_gazebo_world = PathJoinSubstitution([FindPackageShare('xarm_gazebo'), 'worlds', 'table3.world'])
     gazebo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(PathJoinSubstitution([FindPackageShare('gazebo_ros'), 'launch', 'gazebo.launch.py'])),
         launch_arguments={
@@ -158,10 +158,10 @@ def launch_setup(context, *args, **kwargs):
             '-topic', 'robot_description',
             # '-entity', '{}'.format(xarm_type),
             '-entity', 'UF_ROBOT',
-            '-x', '-0.2',
-            '-y', '-0.54' if robot_type.perform(context) == 'uf850' else '-0.5',
-            '-z', '1.021',
-            '-Y', '1.571',
+            '-x', '-3.54',
+            '-y', '-3.54' if robot_type.perform(context) == 'uf850' else '0',
+            '-z', '0.321',
+            '-Y', '0',
         ],
         parameters=[{'use_sim_time': True}],
     )

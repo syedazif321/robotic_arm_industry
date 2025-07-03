@@ -1,22 +1,12 @@
 #include <rclcpp/rclcpp.hpp>
-
-// xarm_msgs service headers
 #include "xarm_msgs/srv/plan_joint.hpp"
 #include "xarm_msgs/srv/plan_exec.hpp"
 #include "xarm_msgs/srv/plan_single_straight.hpp"
-
-// gazebo attach/detach service
 #include "msg_gazebo/srv/attach_detach.hpp"
-
-// MoveIt FK service
 #include "moveit_msgs/srv/get_position_fk.hpp"
 
-// Pose messages
 #include "geometry_msgs/msg/pose.hpp"
-#include "geometry_msgs/msg/pose_stamped.hpp"
 #include "sensor_msgs/msg/joint_state.hpp"
-
-// YAML parsing
 #include "yaml-cpp/yaml.h"
 
 #include <fstream>
@@ -32,35 +22,32 @@ public:
         attach_detach_client_ = this->create_client<msg_gazebo::srv::AttachDetach>("/AttachDetach");
         fk_client_ = this->create_client<moveit_msgs::srv::GetPositionFK>("/compute_fk");
 
-        this->declare_parameter<std::string>("joint_file", "/home/azif/xarm_ros2_simulation/robot_data/saved_joint_poses.yaml");
+        this->declare_parameter<std::string>("joint_file", "/home/azif/xarm7_ros2_simulation/robot_data/saved_joint_poses.yaml");
+
         std::string joint_file;
         this->get_parameter("joint_file", joint_file);
 
         std::vector<std::string> steps = {
-            "pose1",
-            "attach",
-            "posee1",
-            "pose22"
+            "love1", "love2", "love4", "attach", "love5"
         };
 
         for (const auto& step : steps) {
-            RCLCPP_INFO(this->get_logger(), "Executing step: %s", step.c_str());
-
             if (step == "attach") {
                 call_attach_detach(true);
-            } else if (step == "detach") {
-                call_attach_detach(false);
-            } else if ((step == "up" && prev_step_ == "home") || (step == "home" && prev_step_ == "up")) {
+            }
+            else if ((step == "up" && prev_step_ == "home") || (step == "home" && prev_step_ == "up")) {
                 std::vector<double> joint_from, joint_to;
-                if (load_joint_from_yaml(joint_file, prev_step_, joint_from) && load_joint_from_yaml(joint_file, step, joint_to)) {
+                if (load_joint_from_yaml(joint_file, prev_step_, joint_from) &&
+                    load_joint_from_yaml(joint_file, step, joint_to)) {
                     auto pose_from = compute_fk(joint_from);
                     auto pose_to = compute_fk(joint_to);
                     std::vector<geometry_msgs::msg::Pose> waypoints = {pose_from, pose_to};
                     plan_cartesian_path_and_execute(waypoints);
                 } else {
-                    RCLCPP_ERROR(this->get_logger(), "Failed to load joints for '%s' or '%s'", prev_step_.c_str(), step.c_str());
+                    RCLCPP_ERROR(this->get_logger(), "Failed to load joint for '%s' or '%s'", prev_step_.c_str(), step.c_str());
                 }
-            } else {
+            }
+            else {
                 std::vector<double> joints;
                 if (load_joint_from_yaml(joint_file, step, joints)) {
                     plan_and_execute(joints);
@@ -84,6 +71,7 @@ private:
         try {
             YAML::Node config = YAML::LoadFile(file_path);
             if (!config[key]) return false;
+
             joints.clear();
             for (const auto& val : config[key]) joints.push_back(val.as<double>());
             return true;
@@ -97,7 +85,9 @@ private:
         geometry_msgs::msg::Pose result;
         auto req = std::make_shared<moveit_msgs::srv::GetPositionFK::Request>();
         req->fk_link_names.push_back(link_name);
-        req->robot_state.joint_state.name = {"joint1", "joint2", "joint3", "joint4", "joint5", "joint6", "joint7"};
+        req->robot_state.joint_state.name = {
+            "joint1", "joint2", "joint3", "joint4", "joint5", "joint6", "joint7"
+        };
         req->robot_state.joint_state.position = joint_values;
 
         while (!fk_client_->wait_for_service(std::chrono::seconds(1)))
@@ -132,6 +122,7 @@ private:
 
         auto exec_req = std::make_shared<xarm_msgs::srv::PlanExec::Request>();
         exec_req->wait = true;
+
         auto future_exec = exec_plan_client_->async_send_request(exec_req);
         rclcpp::spin_until_future_complete(this->get_node_base_interface(), future_exec);
     }
@@ -161,8 +152,8 @@ private:
         auto req = std::make_shared<msg_gazebo::srv::AttachDetach::Request>();
         req->model1 = "UF_ROBOT";
         req->link1 = "link7";
-        req->model2 = "medicine_box_0";
-        req->link2 = "link";
+        req->model2 = "Medicine_Bottle_0_clone_0";
+        req->link2 = "medicine_bottle_link";
         req->attach = attach;
 
         while (!attach_detach_client_->wait_for_service(std::chrono::seconds(1)))

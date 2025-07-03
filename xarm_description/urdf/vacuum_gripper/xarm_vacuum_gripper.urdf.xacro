@@ -10,6 +10,9 @@
         <origin xyz="${attach_xyz}" rpy="${attach_rpy}"/>
       </joint>
     </xacro:unless>
+    <gazebo reference="${prefix}xarm_vacuum_gripper_link">
+      <material>Gazebo/Orange</material>
+    </gazebo>
 
     <link name="${prefix}xarm_vacuum_gripper_link">
       <inertial>

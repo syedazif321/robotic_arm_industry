@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="Medicine_Bottle">
+    <static>false</static> <!-- ✅ allow physics (falling) -->
+    <link name="medicine_bottle_link">
+    
+      <!-- ✅ Add inertia and mass -->
+      <inertial>
+        <mass>0.05</mass> <!-- 50 grams -->
+        <inertia>
+          <ixx>1e-5</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>1e-5</iyy>
+          <iyz>0.0</iyz>
+          <izz>1e-5</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://Medicine_Bottle/meshes/Medicine_Bottle.stl</uri>
+            <scale>0.1 0.1 0.1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.3 0.2 0.05 1</ambient>
+          <diffuse>0.6 0.3 0.1 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://Medicine_Bottle/meshes/Medicine_Bottle.stl</uri>
+            <scale>0.1 0.1 0.1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

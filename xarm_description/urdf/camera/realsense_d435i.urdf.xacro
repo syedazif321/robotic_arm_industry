@@ -16,6 +16,9 @@
         origin_xyz="0 0 0" 
         origin_rpy="0 0 0" />
     </link>
+    <gazebo reference="${prefix}link_eef">
+      <material>Gazebo/Indigo</material>
+    </gazebo>
 
     <xacro:if value="${add_d435i_links}">
 
