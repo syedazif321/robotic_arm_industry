@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_api/launch/xarm7_driver.launch.py

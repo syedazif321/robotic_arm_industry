@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm7_pose_saver/launch/pose_saver.launch.py

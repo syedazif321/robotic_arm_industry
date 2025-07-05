@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/msg_gazebo/rosidl_typesupport_introspection_c/msg_gazebo/srv/detail/attach_detach__rosidl_typesupport_introspection_c.h

@@ -1,2 +1,0 @@
-/home/azif/xarm_ros2_simulation/install/xarm_moveit_servo/lib/libxarm_joystick_input.so
-/home/azif/xarm_ros2_simulation/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_keyboard_input

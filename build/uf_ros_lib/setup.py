@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/uf_ros_lib/setup.py

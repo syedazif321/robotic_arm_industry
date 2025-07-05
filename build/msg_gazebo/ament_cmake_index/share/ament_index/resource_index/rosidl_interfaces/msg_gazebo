@@ -1,4 +1,0 @@
-srv/AttachDetach.idl
-srv/AttachDetach.srv
-srv/AttachDetach_Request.msg
-srv/AttachDetach_Response.msg

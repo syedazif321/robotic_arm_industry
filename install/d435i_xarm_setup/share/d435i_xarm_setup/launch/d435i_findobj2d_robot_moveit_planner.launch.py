@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_vision/d435i_xarm_setup/launch/d435i_findobj2d_robot_moveit_planner.launch.py

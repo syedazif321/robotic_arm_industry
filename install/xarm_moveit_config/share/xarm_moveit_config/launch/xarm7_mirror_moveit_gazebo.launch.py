@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_moveit_config/launch/xarm7_mirror_moveit_gazebo.launch.py

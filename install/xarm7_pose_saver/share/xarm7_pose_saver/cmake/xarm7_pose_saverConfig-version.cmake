@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/xarm7_pose_saver/ament_cmake_core/xarm7_pose_saverConfig-version.cmake

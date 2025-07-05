@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_description/launch/_robot_joint_state.launch.py

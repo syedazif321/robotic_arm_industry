@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/xarm_msgs/rosidl_typesupport_fastrtps_c/xarm_msgs/srv/detail/set_int16__rosidl_typesupport_fastrtps_c.h

@@ -1,6 +1,0 @@
-{
-  "package_name": "msg_gazebo",
-  "non_idl_tuples": [
-    "/home/azif/xarm_ros2_simulation/msg_gazebo:srv/AttachDetach.srv"
-  ]
-}

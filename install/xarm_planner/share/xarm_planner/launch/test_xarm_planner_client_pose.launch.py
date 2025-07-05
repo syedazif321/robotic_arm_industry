@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_planner/launch/test_xarm_planner_client_pose.launch.py

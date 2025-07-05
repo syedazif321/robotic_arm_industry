@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_gazebo/launch/_robot_beside_table_gazebo.launch.py

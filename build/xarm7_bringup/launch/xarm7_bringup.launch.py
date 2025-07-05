@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm7_bringup/launch/xarm7_bringup.launch.py

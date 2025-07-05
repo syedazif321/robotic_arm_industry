@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/msg_gazebo/rosidl_generator_py/msg_gazebo/srv/__init__.py

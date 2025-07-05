@@ -1,4 +1,0 @@
-source;share/attach_detach/local_setup.bash
-source;share/attach_detach/local_setup.dsv
-source;share/attach_detach/local_setup.sh
-source;share/attach_detach/local_setup.zsh

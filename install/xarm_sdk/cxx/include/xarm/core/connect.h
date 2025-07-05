@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_sdk/cxx/include/xarm/core/connect.h

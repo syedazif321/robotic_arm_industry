@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_moveit_config/launch/xarm6_moveit_fake.launch.py

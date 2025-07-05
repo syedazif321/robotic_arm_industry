@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/realsense_gazebo_plugin/ament_cmake_core/realsense_gazebo_pluginConfig-version.cmake

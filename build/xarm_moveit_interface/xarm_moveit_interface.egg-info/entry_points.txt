@@ -1,3 +1,0 @@
-[console_scripts]
-xarm_moveit_interface = xarm_moveit_interface.xarm_moveit_interface:main
-

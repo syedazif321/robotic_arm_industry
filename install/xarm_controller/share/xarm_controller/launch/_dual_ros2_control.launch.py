@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_controller/launch/_dual_ros2_control.launch.py

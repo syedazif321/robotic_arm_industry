@@ -1,8 +1,0 @@
-source;share/xarm7_aruco_pick/hook/cmake_prefix_path.ps1
-source;share/xarm7_aruco_pick/hook/cmake_prefix_path.dsv
-source;share/xarm7_aruco_pick/hook/cmake_prefix_path.sh
-source;share/xarm7_aruco_pick/local_setup.bash
-source;share/xarm7_aruco_pick/local_setup.dsv
-source;share/xarm7_aruco_pick/local_setup.ps1
-source;share/xarm7_aruco_pick/local_setup.sh
-source;share/xarm7_aruco_pick/local_setup.zsh

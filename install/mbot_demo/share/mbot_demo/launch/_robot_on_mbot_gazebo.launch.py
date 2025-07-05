@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/demo/mbot_demo/launch/_robot_on_mbot_gazebo.launch.py

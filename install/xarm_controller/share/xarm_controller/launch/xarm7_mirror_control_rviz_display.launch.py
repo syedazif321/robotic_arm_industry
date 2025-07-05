@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_controller/launch/xarm7_mirror_control_rviz_display.launch.py

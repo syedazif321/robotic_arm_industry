@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_api/include/xarm_api/visibility_control.h

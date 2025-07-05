@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_planner/include/xarm_planner/xarm_planner.h

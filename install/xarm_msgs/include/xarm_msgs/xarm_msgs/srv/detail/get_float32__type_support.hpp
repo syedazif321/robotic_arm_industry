@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/xarm_msgs/rosidl_generator_cpp/xarm_msgs/srv/detail/get_float32__type_support.hpp

@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/xarm_msgs/rosidl_generator_py/xarm_msgs/srv/_iden_load_s.c

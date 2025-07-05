@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/msg_gazebo/rosidl_typesupport_fastrtps_cpp/msg_gazebo/srv/detail/attach_detach__rosidl_typesupport_fastrtps_cpp.hpp

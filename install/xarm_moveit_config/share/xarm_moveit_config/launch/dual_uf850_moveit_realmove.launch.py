@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_moveit_config/launch/dual_uf850_moveit_realmove.launch.py

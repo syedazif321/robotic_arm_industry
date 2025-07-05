@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/msg_gazebo/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

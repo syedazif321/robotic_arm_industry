@@ -1,4 +1,0 @@
-source;share/msg_gazebo/environment/ament_prefix_path.sh
-source;share/msg_gazebo/environment/library_path.sh
-source;share/msg_gazebo/environment/path.sh
-source;share/msg_gazebo/environment/pythonpath.sh

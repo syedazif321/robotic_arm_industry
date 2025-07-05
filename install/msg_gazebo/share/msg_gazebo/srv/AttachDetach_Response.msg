@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/msg_gazebo/rosidl_cmake/srv/AttachDetach_Response.msg

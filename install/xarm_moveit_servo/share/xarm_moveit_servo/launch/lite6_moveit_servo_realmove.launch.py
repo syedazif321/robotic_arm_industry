@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_moveit_servo/launch/lite6_moveit_servo_realmove.launch.py

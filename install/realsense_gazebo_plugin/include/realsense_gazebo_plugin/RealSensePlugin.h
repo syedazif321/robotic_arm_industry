@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/thirdparty/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h

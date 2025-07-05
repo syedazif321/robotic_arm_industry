@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/xarm_msgs/ament_cmake_core/xarm_msgsConfig-version.cmake

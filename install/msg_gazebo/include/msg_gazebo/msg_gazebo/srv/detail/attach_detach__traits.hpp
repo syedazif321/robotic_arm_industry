@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/msg_gazebo/rosidl_generator_cpp/msg_gazebo/srv/detail/attach_detach__traits.hpp

@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/build/xarm_moveit_config/ament_cmake_core/xarm_moveit_configConfig-version.cmake

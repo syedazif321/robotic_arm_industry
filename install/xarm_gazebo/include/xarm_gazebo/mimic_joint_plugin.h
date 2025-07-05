@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_gazebo/include/xarm_gazebo/mimic_joint_plugin.h

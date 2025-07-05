@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/demo/mbot_demo/launch/mbot_moveit_fake.launch.py

@@ -1,1 +1,0 @@
-/home/azif/xarm_ros2_simulation/xarm_planner/launch/uf850_planner_fake.launch.py
