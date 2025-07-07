@@ -1,0 +1,127 @@
+{
+  "amrizole": [
+    {
+      "target": "start"
+    },
+    {
+      "target": "safe"
+    },
+    {
+      "target": "pick1"
+    },
+    {
+      "target": "pick"
+    },
+    {
+      "target": "picked"
+    },
+    {
+      "target": "attach",
+      "model": "med_3_clone_clone_8",
+      "link": "link_0"
+    },
+    {
+      "target": "back"
+    }
+  ],
+  "omprazole": [
+    {
+      "target": "start"
+    },
+    {
+      "target": "safe"
+    },
+    {
+      "target": "love1"
+    },
+    {
+      "target": "love2"
+    },
+    {
+      "target": "love3"
+    },
+    {
+      "target": "attach",
+      "model": "med_2_clone_21_clone_clone_0",
+      "link": "link_0"
+    },
+    {
+      "target": "pick_back"
+    }
+  ],
+  "annuva": [
+    {
+      "target": "start"
+    },
+    {
+      "target": "up1"
+    },
+    {
+      "target": "ooper1"
+    },
+    {
+      "target": "ooper2"
+    },
+    {
+      "target": "ooped"
+    },
+    {
+      "target": "attach",
+      "model": "med_1_0_clone_27",
+      "link": "link_0"
+    },
+    {
+      "target": "oop_back"
+    }
+  ],
+  "all_vent": [
+    {
+      "target": "safe"
+    },
+    {
+      "target": "up1"
+    },
+    {
+      "target": "loobi1"
+    },
+    {
+      "target": "loobi2"
+    },
+    {
+      "target": "loobed3"
+    },
+    {
+      "target": "attach",
+      "model": "med_4_clone_26",
+      "link": "link_0"
+    },
+    {
+      "target": "loob_back"
+    }
+  ],
+  "med_strip": [
+    {
+      "target": "safe"
+    },
+    {
+      "target": "chu1"
+    },
+    {
+      "target": "chu2"
+    },
+    {
+      "target": "chu_pick"
+    },
+    {
+      "target": "attach",
+      "model": "med_strip_1",
+      "link": "link_0"
+    },
+    {
+      "target": "chuved"
+    },
+    {
+      "target": "chulook"
+    }
+  ]
+}

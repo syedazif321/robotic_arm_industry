@@ -25,7 +25,7 @@ def generate_launch_description():
             'add_realsense_d435i': 'true',
             'robot_type': 'xarm',
             'hw_ns': hw_ns,
-            'no_gui_ctrl': 'false',
+            'no_gui_ctrl': 'true',
             'add_gripper': 'false',
             'add_vacuum_gripper': 'false',
             'add_other_geometry': 'true',
@@ -34,11 +34,7 @@ def generate_launch_description():
             'geometry_mesh_filename': 'object.stl',
   
             
-            
-            # 'geometry_type': 'cylinder',
-            # 'geometry_height': '0.07',
-            # 'geometry_radius': '0.035',
-            # 'geometry_mass': '0.05'
+
         }.items(),
     )
     
