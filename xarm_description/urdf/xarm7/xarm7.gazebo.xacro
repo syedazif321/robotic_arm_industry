@@ -2,7 +2,6 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:macro name="xarm7_gazebo" params="prefix">
 
-    <!-- Base and Arm -->
     <gazebo reference="${prefix}link_base">
       <selfCollide>true</selfCollide>
       <material>Gazebo/Grey</material>

@@ -190,6 +190,109 @@
     </group_state>
 
 
+    <group_state name="love1" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="5.2929463299378199e-05" />
+      <joint name="${prefix}joint2" value="-0.9947470773862026" />
+      <joint name="${prefix}joint3" value="-1.3025837058755485e-05" />
+      <joint name="${prefix}joint4" value="0.50544354970649508" />
+      <joint name="${prefix}joint5" value="-9.2838456877686326e-06" />
+      <joint name="${prefix}joint6" value="1.5002422153293287" />
+      <joint name="${prefix}joint7" value="8.0392985051247479e-06" />
+    </group_state>
+
+    <group_state name="love2" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="-4.5884507440696609e-05" />
+      <joint name="${prefix}joint2" value="-0.48348551496424985" />
+      <joint name="${prefix}joint3" value="-5.2114293804805811e-06" />
+      <joint name="${prefix}joint4" value="0.51337062884603846" />
+      <joint name="${prefix}joint5" value="4.7391198316759642e-06" />
+      <joint name="${prefix}joint6" value="-0.25964907604119514" />
+      <joint name="${prefix}joint7" value="-5.6695252972360777e-06" />
+    </group_state>
+
+    <group_state name="love3" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="-0.082655991955637553" />
+      <joint name="${prefix}joint2" value="-0.066426542309092618" />
+      <joint name="${prefix}joint3" value="0.10352275725903848" />
+      <joint name="${prefix}joint4" value="0.6505251438846944" />
+      <joint name="${prefix}joint5" value="0.041473618489522579" />
+      <joint name="${prefix}joint6" value="-0.73461310376573419" />
+      <joint name="${prefix}joint7" value="-0.023091751788201442" />
+    </group_state>
+
+    <group_state name="love4" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="-0.25076946002507938" />
+      <joint name="${prefix}joint2" value="-0.071020371924088721" />
+      <joint name="${prefix}joint3" value="0.25193978212865442" />
+      <joint name="${prefix}joint4" value="0.56309962256907031" />
+      <joint name="${prefix}joint5" value="-0.000222068396536379" />
+      <joint name="${prefix}joint6" value="-0.89346833923260238" />
+      <joint name="${prefix}joint7" value="0.017837248839315478" />
+    </group_state>
+
+    <group_state name="love5" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="0.13948034842441448" />
+      <joint name="${prefix}joint2" value="-1.1360032792077623" />
+      <joint name="${prefix}joint3" value="-0.2201662415979202" />
+      <joint name="${prefix}joint4" value="0.49801597042842705" />
+      <joint name="${prefix}joint5" value="-0.27077448261675485" />
+      <joint name="${prefix}joint6" value="0.46670028117102014" />
+      <joint name="${prefix}joint7" value="0.077532696527914169" />
+    </group_state>
+
+    <group_state name="fool1" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="0.23179667927145964" />
+      <joint name="${prefix}joint2" value="-0.96963274172361746" />
+      <joint name="${prefix}joint3" value="-0.46263968704588354" />
+      <joint name="${prefix}joint4" value="0.72608298935922466" />
+      <joint name="${prefix}joint5" value="-0.33544387208833992" />
+      <joint name="${prefix}joint6" value="1.6407739955930829" />
+      <joint name="${prefix}joint7" value="-0.06681943346742969" />
+    </group_state>
+
+    <group_state name="fool2" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="0.3054150716951165" />
+      <joint name="${prefix}joint2" value="-1.2305107585499693" />
+      <joint name="${prefix}joint3" value="-0.28697655157524338" />
+      <joint name="${prefix}joint4" value="0.610210177202128" />
+      <joint name="${prefix}joint5" value="-0.38213606146023871" />
+      <joint name="${prefix}joint6" value="0.91661852025624047" />
+      <joint name="${prefix}joint7" value="0.18139967293763437" />
+    </group_state>
+
+    <group_state name="fool3" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="0.42695411671383177" />
+      <joint name="${prefix}joint2" value="-0.53505038962718654" />
+      <joint name="${prefix}joint3" value="-0.56119421660725877" />
+      <joint name="${prefix}joint4" value="0.58665518741294953" />
+      <joint name="${prefix}joint5" value="-0.45179549314522482" />
+      <joint name="${prefix}joint6" value="0.24949888508132112" />
+      <joint name="${prefix}joint7" value="0.22268658314481282" />
+    </group_state>
+
+    <group_state name="fool4" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="1.1016118546252391" />
+      <joint name="${prefix}joint2" value="-0.13735399830462569" />
+      <joint name="${prefix}joint3" value="-1.185607931816266" />
+      <joint name="${prefix}joint4" value="0.71137921457760012" />
+      <joint name="${prefix}joint5" value="-0.020808960542975541" />
+      <joint name="${prefix}joint6" value="-0.055215352929869788" />
+      <joint name="${prefix}joint7" value="-0.096147337147562517" />
+    </group_state>
+
+    <group_state name="fool5" group="${prefix}xarm7">
+      <joint name="${prefix}joint1" value="0.38762228489956829" />
+      <joint name="${prefix}joint2" value="-0.68476613212663118" />
+      <joint name="${prefix}joint3" value="-0.48191374567688161" />
+      <joint name="${prefix}joint4" value="0.61490784887320959" />
+      <joint name="${prefix}joint5" value="-0.4248234941627036" />
+      <joint name="${prefix}joint6" value="0.43331858097554843" />
+      <joint name="${prefix}joint7" value="0.20189872252017071" />
+    </group_state>
+
+
+
+
     <!-- gripper -->
     <xacro:if value="${add_gripper}">
       <group name="${prefix}xarm_gripper">

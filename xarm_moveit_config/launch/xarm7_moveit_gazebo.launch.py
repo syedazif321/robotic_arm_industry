@@ -26,7 +26,17 @@ def generate_launch_description():
             'hw_ns': hw_ns,
             'no_gui_ctrl': 'false',
             'add_realsense_d435i': 'true',
-            'add_vacuum_gripper': 'true'
+            'add_gripper': 'false',
+            'add_vacuum_gripper': 'false',
+            'add_other_geometry': 'true',
+            'geometry_type': 'mesh',
+
+            'geometry_mesh_filename': 'object.stl',
+
+            # 'geometry_type': 'cylinder',
+            # 'geometry_height': '0.02',
+            # 'geometry_radius': '0.015',
+            # 'geometry_mass': '0.05'
 
         }.items(),
     )

@@ -23,10 +23,22 @@ def generate_launch_description():
         launch_arguments={
             'dof': '7',
             'add_realsense_d435i': 'true',
-            'add_vacuum_gripper': 'true',
             'robot_type': 'xarm',
             'hw_ns': hw_ns,
-            'no_gui_ctrl': 'true',
+            'no_gui_ctrl': 'false',
+            'add_gripper': 'false',
+            'add_vacuum_gripper': 'false',
+            'add_other_geometry': 'true',
+            'geometry_type': 'mesh',
+            'geometry_mass': '0.001',
+            'geometry_mesh_filename': 'object.stl',
+  
+            
+            
+            # 'geometry_type': 'cylinder',
+            # 'geometry_height': '0.07',
+            # 'geometry_radius': '0.035',
+            # 'geometry_mass': '0.05'
         }.items(),
     )
     

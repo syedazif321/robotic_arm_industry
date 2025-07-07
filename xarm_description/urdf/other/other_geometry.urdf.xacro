@@ -109,7 +109,9 @@
       <parent link="${prefix}other_geometry_link" />
       <child link="${prefix}link_tcp" />
     </joint>
-
+    <gazebo reference="${prefix}other_geometry_link">
+      <material>Gazebo/Red</material>
+    </gazebo>
   </xacro:macro>
 
 </robot>

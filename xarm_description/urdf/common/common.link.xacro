@@ -19,10 +19,10 @@
 
   <xacro:macro name="common_link_mesh" params="mesh_filename use_mesh_path:=true">
     <xacro:if value="${use_mesh_path}">
-      <mesh filename="${mesh_path}/${mesh_filename}"/>
+      <mesh filename="${mesh_path}/${mesh_filename}" scale="0.001 0.001 0.001"/>
     </xacro:if>
     <xacro:unless value="${use_mesh_path}">
-      <mesh filename="${mesh_filename}"/>
+      <mesh filename="${mesh_filename}" scale="0.001 0.001 0.001"/>
     </xacro:unless>
   </xacro:macro>
   
