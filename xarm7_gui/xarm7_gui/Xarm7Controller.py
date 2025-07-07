@@ -29,6 +29,11 @@ class Ui_MainWindow(object):
 
 
    
+        self.jog_timer = QTimer()
+        self.jog_timer.timeout.connect(self.send_continuous_jog)
+        self.current_axis = None
+        self.current_direction = 0
+
 
         self.line = QtWidgets.QFrame(self.centralwidget)
         self.line.setGeometry(QtCore.QRect(460, 5, 20, 461))
@@ -326,6 +331,36 @@ class Ui_MainWindow(object):
         self.pushButton.clicked.connect(self.handle_go_to_joint_goal)
         self.pushButton_10.clicked.connect(self.run_program_from_combo)
 
+        self.pushButton_12.pressed.connect(lambda: self.start_jog('x', 1))
+        self.pushButton_12.released.connect(self.stop_jog)
+        self.pushButton_13.pressed.connect(lambda: self.start_jog('x', -1))
+        self.pushButton_13.released.connect(self.stop_jog)
+
+        self.pushButton_15.pressed.connect(lambda: self.start_jog('y', 1))
+        self.pushButton_15.released.connect(self.stop_jog)
+        self.pushButton_14.pressed.connect(lambda: self.start_jog('y', -1))
+        self.pushButton_14.released.connect(self.stop_jog)
+
+        self.pushButton_17.pressed.connect(lambda: self.start_jog('z', 1))
+        self.pushButton_17.released.connect(self.stop_jog)
+        self.pushButton_16.pressed.connect(lambda: self.start_jog('z', -1))
+        self.pushButton_16.released.connect(self.stop_jog)
+
+        self.pushButton_19.pressed.connect(lambda: self.start_jog('rx', 1))
+        self.pushButton_19.released.connect(self.stop_jog)
+        self.pushButton_20.pressed.connect(lambda: self.start_jog('rx', -1))
+        self.pushButton_20.released.connect(self.stop_jog)
+
+        self.pushButton_22.pressed.connect(lambda: self.start_jog('py', 1))
+        self.pushButton_22.released.connect(self.stop_jog)
+        self.pushButton_21.pressed.connect(lambda: self.start_jog('py', -1))
+        self.pushButton_21.released.connect(self.stop_jog)
+
+        self.pushButton_18.pressed.connect(lambda: self.start_jog('rz', 1))
+        self.pushButton_18.released.connect(self.stop_jog)
+        self.pushButton_23.pressed.connect(lambda: self.start_jog('rz', -1))
+        self.pushButton_23.released.connect(self.stop_jog)
+
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -418,6 +453,20 @@ class Ui_MainWindow(object):
                 self.label_13.setText("Status: Invalid joint data.")
         else:
             self.label_13.setText("Status: Pose not found.")
+
+    def start_jog(self, axis, direction):
+        self.current_axis = axis
+        self.current_direction = direction
+        self.jog_timer.start(100)  # every 100ms
+
+    def stop_jog(self):
+        self.jog_timer.stop()
+        self.current_axis = None
+
+    def send_continuous_jog(self):
+        if self.current_axis is not None:
+            self.controller.send_cartesian_command(self.current_axis, self.current_direction)
+
 
 
     def handle_run_program(self, program_name):

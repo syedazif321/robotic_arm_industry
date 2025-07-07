@@ -74,7 +74,7 @@ def launch_setup(context, *args, **kwargs):
             'robot_type': robot_type,
             'dof': dof,
             'hw_ns': hw_ns,
-            'no_gui_ctrl': 'true',
+            'no_gui_ctrl': 'false',
             'add_gripper': 'true' if robot_type != 'lite' else 'false',
             'add_vacuum_gripper': 'true' if robot_type == 'lite' else 'false',
             'extra_robot_api_params_path': extra_robot_api_params_path,

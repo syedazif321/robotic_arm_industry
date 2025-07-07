@@ -139,7 +139,7 @@ def launch_setup(context, *args, **kwargs):
 
     # gazebo launch
     # gazebo_ros/launch/gazebo.launch.py
-    xarm_gazebo_world = PathJoinSubstitution([FindPackageShare('xarm_gazebo'), 'worlds', 'table61.world'])
+    xarm_gazebo_world = PathJoinSubstitution([FindPackageShare('xarm_gazebo'), 'worlds', 'table62.world'])
     gazebo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(PathJoinSubstitution([FindPackageShare('gazebo_ros'), 'launch', 'gazebo.launch.py'])),
         launch_arguments={
@@ -158,8 +158,8 @@ def launch_setup(context, *args, **kwargs):
             '-topic', 'robot_description',
             # '-entity', '{}'.format(xarm_type),
             '-entity', 'UF_ROBOT',
-            '-x', '-0.363071',
-            '-y', '-0.54' if robot_type.perform(context) == 'uf850' else '-0.999953',
+            '-x', '-1.716856',
+            '-y', '-0.54' if robot_type.perform(context) == 'uf850' else '-1.000231',
             '-z', '0.577394',
             '-Y', '1.571',
         ],

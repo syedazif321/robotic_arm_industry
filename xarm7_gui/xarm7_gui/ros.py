@@ -10,6 +10,7 @@ from msg_gazebo.srv import AttachDetach
 from sensor_msgs.msg import JointState
 from geometry_msgs.msg import TwistStamped
 import tf_transformations
+from control_msgs.msg import JointJog
 
 from subprocess import Popen, PIPE, run
 import os
@@ -17,6 +18,7 @@ import signal
 import math
 from std_srvs.srv import Trigger
 from xarm_msgs.srv import PlanJoint, PlanExec
+from builtin_interfaces.msg import Duration
 rclpy.init()
 
 process = None
@@ -30,13 +32,16 @@ class Xarm7Controller(Node):
         self.start_servo = self.create_client(Trigger, '/servo_node/start_servo')
         self.stop_servo = self.create_client(Trigger, '/servo_node/stop_servo')
 
-        self.twist_publisher = self.create_publisher(TwistStamped, '/servo_node/delta_twist_cmds', 10)
-        self.joint_state_demo_publisher = self.create_publisher(JointState, '/joint_states_demo', 10)
-
+        self.publisher = self.create_publisher(JointJog, '/servo_server/delta_joint_cmds', 10)
+        self.jog_command = None
         # self.timer = self.create_timer(0.05, self.timer_callback)
 
         self.joint_plan_client = self.create_client(PlanJoint, '/xarm_joint_plan')
         self.exec_plan_client = self.create_client(PlanExec, '/xarm_exec_plan')
+
+        self.twist_pub = self.create_publisher(TwistStamped, '/servo_server/delta_twist_cmds', 10)
+        self.joint_pub = self.create_publisher(JointJog, '/servo_server/delta_joint_cmds', 10)
+
 
         self.subscription = self.create_subscription(
             JointState,
@@ -72,6 +77,47 @@ class Xarm7Controller(Node):
         self.stop_servo.call_async(request)
         responce = self.stop_servo.call(request)
         self.get_logger().info(f"Service call result: {responce.success}, {responce.message}")
+
+    def publish_twist(self, axis, direction):
+        msg = TwistStamped()
+        setattr(msg.twist.linear, axis, 0.2 * direction)
+        msg.header.stamp = self.get_clock().now().to_msg()
+        msg.header.frame_id = 'link_base'
+        self.twist_pub.publish(msg)
+        self.get_logger().info(f'Published Twist on {axis} {direction}')
+
+    def publish_joint(self, joint_name, direction):
+        msg = JointJog()
+        msg.joint_names.append(joint_name)
+        msg.velocities.append(0.5 * direction)
+        msg.header.stamp = self.get_clock().now().to_msg()
+        msg.header.frame_id = 'joint'
+        self.joint_pub.publish(msg)
+        self.get_logger().info(f'Published JointJog on {joint_name} {direction}')
+
+    def send_cartesian_command(self, axis, direction):
+        msg = TwistStamped()
+        msg.header.stamp = self.get_clock().now().to_msg()
+        msg.header.frame_id = 'link_base'
+        value = 0.1 * direction
+
+        if axis == 'x':
+            msg.twist.linear.x = value
+        elif axis == 'y':
+            msg.twist.linear.y = value
+        elif axis == 'z':
+            msg.twist.linear.z = value
+        elif axis == 'rx':
+            msg.twist.angular.x = value
+        elif axis == 'py':
+            msg.twist.angular.y = value
+        elif axis == 'rz':
+            msg.twist.angular.z = value
+
+        self.twist_pub.publish(msg)
+        self.get_logger().info(f'Published twist: {axis} {direction}')
+
+
 
     def joint_listener_callback(self, msg):
         joint_names = msg.name

@@ -114,7 +114,7 @@
     },
     {
       "target": "attach",
-      "model": "med_strip_1",
+      "model": "med_strip_2_clone_0",
       "link": "link_0"
     },
     {
@@ -122,6 +122,122 @@
     },
     {
       "target": "chulook"
+    }
+  ],
+  "bottle": [
+    {
+      "target": "start"
+    },
+    {
+      "target": "boo1"
+    },
+    {
+      "target": "boo2"
+    },
+    {
+      "target": "booed"
+    },
+    {
+      "target": "attach",
+      "model": "Medicine_Bottle_1_clone_0_clone_1_clone_2",
+      "link": "medicine_bottle_link"
+    },
+    {
+      "target": "boo_back"
+    }
+  ],
+  "dentinox": [
+    {
+      "target": "start"
+    },
+    {
+      "target": "uop"
+    },
+    {
+      "target": "chef1"
+    },
+    {
+      "target": "shefed"
+    },
+    {
+      "target": "attach",
+      "model": "pic_18 17516067753531_clone_3_clone",
+      "link": "link_0"
+    },
+    {
+      "target": "chef_back"
+    }
+  ],
+  "airoplast": [
+    {
+      "target": "start"
+    },
+    {
+      "target": "uop"
+    },
+    {
+      "target": "sheep1"
+    },
+    {
+      "target": "sheep2"
+    },
+    {
+      "target": "sheeped"
+    },
+    {
+      "target": "attach",
+      "model": "pic_23 17516069074671_clone_clone_1",
+      "link": "link_0"
+    },
+    {
+      "target": "sheep_back"
+    }
+  ],
+  "tusq": [
+    {
+      "target": "start"
+    },
+    {
+      "target": "uop"
+    },
+    {
+      "target": "shu1"
+    },
+    {
+      "target": "shu2"
+    },
+    {
+      "target": "shu3"
+    },
+    {
+      "target": "shuved"
+    },
+    {
+      "target": "attach",
+      "model": "pic_23 17516069074756",
+      "link": "link_0"
+    },
+    {
+      "target": "shu_back"
+    }
+  ],
+  "czinc": [
+    {
+      "target": "uop"
+    },
+    {
+      "target": "foob1"
+    },
+    {
+      "target": "foob2"
+    },
+    {
+      "target": "attach",
+      "model": "pic_23 17516069074757_clone",
+      "link": "link_0"
+    },
+    {
+      "target": "foob_back"
     }
   ]
 }
