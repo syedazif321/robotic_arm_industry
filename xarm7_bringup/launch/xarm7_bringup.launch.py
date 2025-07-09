@@ -17,26 +17,31 @@ def generate_launch_description():
         name='GAZEBO_MODEL_PATH',
         value=gazebo_model_path
     )
-    # Include the xarm_planner launch
+
+    # Include the linear guide launch
+    spawn_linear_guide = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([
+            FindPackageShare('xarm_description'),
+            '/launch/spawn_linear_guide.launch.py'
+        ])
+    )
+
+    # Include the xarm planner launch
     xarm_planner_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             FindPackageShare('xarm_planner'),
             '/launch/xarm7_planner_gazebo.launch.py'
         ]),
-        launch_arguments={
-            'hw_ns': hw_ns
-        }.items(),
+        launch_arguments={'hw_ns': hw_ns}.items()
     )
 
-    # Include the MoveIt Servo Fake launch
+    # Include MoveIt Servo fake
     moveit_servo_fake_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             FindPackageShare('xarm_moveit_servo'),
             '/launch/_robot_moveit_servo_fake.launch.py'
         ]),
-        launch_arguments={
-            'hw_ns': hw_ns
-        }.items(),
+        launch_arguments={'hw_ns': hw_ns}.items()
     )
 
     return LaunchDescription([
@@ -46,6 +51,7 @@ def generate_launch_description():
             description='Hardware namespace for the robot'
         ),
         set_gazebo_model_path,
+        spawn_linear_guide,
         xarm_planner_launch,
         moveit_servo_fake_launch
     ])
