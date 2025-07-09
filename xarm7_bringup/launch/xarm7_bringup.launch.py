@@ -1,18 +1,21 @@
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import LaunchConfiguration, EnvironmentVariable
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
-from launch.substitutions import PathJoinSubstitution
 
 def generate_launch_description():
     hw_ns = LaunchConfiguration('hw_ns', default='xarm')
 
-    # Add GAZEBO_MODEL_PATH for custom models
+    gazebo_model_path = PathJoinSubstitution([
+        FindPackageShare('xarm_gazebo'),
+        'worlds',
+        'models'
+    ])
+
     set_gazebo_model_path = SetEnvironmentVariable(
         name='GAZEBO_MODEL_PATH',
-        value=EnvironmentVariable('GAZEBO_MODEL_PATH') + ':' +
-            PathJoinSubstitution([FindPackageShare('xarm_gazebo'), 'worlds', 'models'])
+        value=gazebo_model_path
     )
     # Include the xarm_planner launch
     xarm_planner_launch = IncludeLaunchDescription(

@@ -23,8 +23,8 @@ class Ui_MainWindow(object):
 
 
         self.controller = ros.Xarm7Controller()
-        self.target_file = '/home/azif/xarm7_ros2_simulation/robot_data/saved_joint_poses.json'
-        self.program_file = '/home/azif/xarm7_ros2_simulation/robot_data/program.json'
+        self.target_file = '/home/azif/robotic_arm_industry/robot_data/saved_joint_poses.json'
+        self.program_file = '/home/azif/robotic_arm_industry/robot_data/program.json'
         self.box_file = '/home/azif/xarm7_ros2_simulation/robot_data/boxes.json'
 
 
@@ -418,11 +418,6 @@ class Ui_MainWindow(object):
         self.label_37.setText(_translate("MainWindow", "Model1:"))
         self.label_38.setText(_translate("MainWindow", "Link:"))
 
-
-    
-
-        
-
     def handle_get_joint_state(self):
         joint_state = self.controller.get_joint_positions()
         self.textBrowser.append(f"Joint State: {joint_state}")
@@ -466,8 +461,6 @@ class Ui_MainWindow(object):
     def send_continuous_jog(self):
         if self.current_axis is not None:
             self.controller.send_cartesian_command(self.current_axis, self.current_direction)
-
-
 
     def handle_run_program(self, program_name):
         program_name = self.comboBox_3.currentText().strip()
