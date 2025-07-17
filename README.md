@@ -149,4 +149,4 @@ This project is under the **MIT License**.
 
 ## Acknowledgments
 
-Based on **ROBOTIS OpenManipulator-X**, **xArm ROS packages**, and **MoveIt 2** frameworks.
+Based on **xArm ROS packages**, and **MoveIt 2** frameworks.
