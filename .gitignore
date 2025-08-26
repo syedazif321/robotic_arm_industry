@@ -11,3 +11,12 @@ files__pycache__/
 build/
 install/
 log/
+
+ai_env/
+venv/
+env/
+uf_ros_lib/
+uf_ros_lib/uf_ros_lib/substitutions/__pycache__/__init__.cpython-310.pyc
+uf_ros_lib/uf_ros_lib/substitutions/__pycache__/controllers.cpython-310.pyc
+uf_ros_lib/uf_ros_lib/__pycache__/uf_robot_utils.cpython-310.pyc
+uf_ros_lib/uf_ros_lib/__pycache__/__init__.cpython-310.pyc
