@@ -19,12 +19,12 @@ def generate_launch_description():
     )
 
     # Include the linear guide launch
-    spawn_linear_guide = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            FindPackageShare('xarm_description'),
-            '/launch/spawn_linear_guide.launch.py'
-        ])
-    )
+    # spawn_linear_guide = IncludeLaunchDescription(
+    #     PythonLaunchDescriptionSource([
+    #         FindPackageShare('xarm_description'),
+    #         '/launch/spawn_linear_guide.launch.py'
+    #     ])
+    # )
 
     # Include the xarm planner launch
     xarm_planner_launch = IncludeLaunchDescription(
@@ -51,7 +51,7 @@ def generate_launch_description():
             description='Hardware namespace for the robot'
         ),
         set_gazebo_model_path,
-        spawn_linear_guide,
+        # spawn_linear_guide,
         xarm_planner_launch,
         moveit_servo_fake_launch
     ])
