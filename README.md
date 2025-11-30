@@ -150,3 +150,10 @@ This project is under the **MIT License**.
 ## Acknowledgments
 
 Based on **xArm ROS packages**, and **MoveIt 2** frameworks.
+
+
+
+
+source ai_env/bin/activate
+source ~/ros2_ws/install/setup.bash
+ros2 run hand_tracker_control follow_hand

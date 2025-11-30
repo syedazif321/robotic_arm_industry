@@ -1,13 +1,31 @@
-.vscode/
-.idea/
-*bak/
-ignore_*
-xarm_api/config/xarm_user_params.yaml
-**/old
-xarm_description/config/kinematics/user
+# --- Python & Bytecode ---
+__pycache__/
 *.py[cod]
-files__pycache__/
+*$py.class
 
+# --- Virtual Environments ---
+ai_env/
+venv/
+env/
+
+# --- ROS 2 / Colcon Build Artifacts ---
 build/
 install/
 log/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Temporary & Backup Files ---
+*bak/
+**/old
+ignore_*
+*.swp
+
+# --- Specific Configs & Project Files ---
+xarm_api/config/xarm_user_params.yaml
+xarm_description/config/kinematics/user
+
+# --- Libraries (If you want to ignore this entire library folder) ---
+uf_ros_lib/

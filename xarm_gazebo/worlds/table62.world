@@ -1477,7 +1477,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='med_1'>
+    <!-- <model name='med_1'>
       <link name='link_0'>
         <inertial>
           <mass>1</mass>
@@ -28748,6 +28748,6 @@
       <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>-1.68995 -0.355729 0.514151 0.016868 1e-06 -0.000147</pose>
-    </model>
+    </model> -->
   </world>
 </sdf>
